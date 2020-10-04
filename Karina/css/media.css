@@ -1,0 +1,125 @@
+@media (max-width:375px) {
+    .mx_width {
+        max-width: 330px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    header img {
+        width: 25px;
+    }
+    header ul {
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+        font-weight: 500;
+    }
+    button {
+        font-size: 12px;
+        border-radius: 20px;
+        height: 20px;
+        width: 100px;
+    }
+    header h1 {
+        font-size: 35px;
+
+    }
+    header p {
+        font-size: 12px;
+    }
+    .hed2 {
+        display: flex;
+        padding-bottom: 30px;
+    }
+    .hed2 img{
+        margin: 30px;
+        margin-top: 50%;
+        width: 160px;
+        height: 100px;
+    }
+    .hed2_1 {
+        width: 150px;
+    }
+    .hed2_1 h1 {
+        margin: 20px 0px;
+    }
+    .hed2_1 p {
+        margin-bottom: 10px;
+    }
+
+
+    .forma h1 {
+        font-size: 20px;
+    }
+    .forma p {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .forma input {
+    border-radius: 23px;
+    font-size: 9px;
+    border: 0px;
+    height: 35px;
+    width: 100px;
+    }
+    .forma button {
+    border-radius: 20px;
+    width: 40px;
+    margin-left: -4px;
+    }
+    .texthedbod {
+    font-size: 14px;
+    }
+    .sec1 {
+        display: flex;
+        padding-top: 100px;
+        width: 100px;
+    }
+    .sec1 h1 {
+    font-size: 20px;
+    }
+    .sec1 img {
+        width:150px;
+        margin-bottom: 60px;
+    }
+    .sec1_1 {
+        height: 600px;
+        width: 450px;
+    }
+    .sec1_2 img {
+        margin-top: 60px;
+    }
+    .sec1_2 {
+        width: 350px;
+    }
+    .sec3 {
+        display: flex;
+        margin-top: 350px;
+        padding-bottom: 0px;
+        justify-content: space-between;
+    }
+    .sec3 img {
+        width: 100px;
+    }
+    .sec3 h1 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .sec3 p {
+        font-size: 9px;
+    }
+    .sec3_1 {
+        max-width: 100px;
+    }
+    .sec3_2 {
+        max-width: 100px;
+    }
+    .sec3_3 {
+        max-width: 100px;
+    }
+    footer a,p {
+    font-size: 8px;
+    
+    }
+}
