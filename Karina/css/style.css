@@ -1,5 +1,6 @@
 * {
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 .mx_width {
     max-width: 900px;
@@ -36,6 +37,9 @@ button {
     border: 0px solid;
     color: #ffffff;
 }
+button:hover {
+    animation: bounce 1s;
+}
 header h1 {
     color: #ffffff;
     font-size: 40px;
@@ -52,14 +56,20 @@ header p {
     display: flex;
     padding-bottom: 100px;
 }
+.hed2 img{
+    width: 450px;
+}
 .hed2_1 {
     width: 450px;
 }
-.hed2_1 h1 {
+.hed2_1 h2 {
     margin: 50px 0px;
 }
 .hed2_1 p {
     margin-bottom: 15px;
+}
+.hed2_1 h1 {
+    animation: myAnimate 3s;
 }
 
 
@@ -73,7 +83,7 @@ header p {
     margin-right: 50px;
     text-align: center;
 }
-.forma h1 {
+.forma h2 {
     font-size: 30px;
     font-weight: 400 bold;
     line-height: 20px;
@@ -115,6 +125,9 @@ height: 35px;
 width: 75px;
 margin-left: -4px;
 }
+.forma button:hover {
+    animation: pulse 1s;
+}
 .texthedbod {
     color: #222222;
 font-family: "Open Sans";
@@ -136,7 +149,7 @@ text-align: center;
     padding-top: 100px;
     width: 900px;
 }
-.sec1 h1 {
+.sec1 h2 {
     font-size: 30px;
 font-weight: 400;
 color:#333333;
@@ -173,7 +186,7 @@ margin-bottom: 75px;
 .sec3 img {
     width: 300px;
 }
-.sec3 h1 {
+.sec3 h2 {
     color: #333333;
     font-size: 25px;
     font-weight: 400;
@@ -210,5 +223,9 @@ font-size: 14px;
 font-weight: 400;
 color: #c9c9c9;
 text-decoration: none;
-
+}
+@keyframes myAnimate {
+    from {text-shadow: 0 0 3px black;}
+    50% {text-shadow: 0 0 30px black;}
+    to {text-shadow: 0 0 3px black;}
 }
